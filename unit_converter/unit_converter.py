@@ -56,7 +56,7 @@ def distance(): #miles to km km to miles
             print()
         except ValueError:
             print("Please enter a number.")
-        return
+            return
         if options == 1:
             value= float(input('You have chosen km-miles: Introduce the distance with just the numbers: '))
             print()
@@ -70,6 +70,7 @@ def distance(): #miles to km km to miles
         else:
             print ('Invalid option')
         return
+
     
 def mass(): # kg- lb
     print("1. kg to lb\n2.lb to kg")
