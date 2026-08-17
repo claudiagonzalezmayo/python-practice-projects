@@ -37,7 +37,7 @@ def main():
                     break
             case 3:
                 mass=get_number("Enter mass(kg) :", minimum= 0, exclusive= True)
-                acceleration=get_number("Enter acceleration(m/s**2) :")
+                acceleration=get_number("Enter acceleration(m/s²) :")
                 print(calculations.force(mass,acceleration))
                 print("....................................................")
                 if decision():

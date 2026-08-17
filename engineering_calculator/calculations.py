@@ -6,7 +6,7 @@ def velocity(distance,time):
 
 def acceleration(initial_velocity, final_velocity, time):
     result= (final_velocity-initial_velocity)/time
-    return f"The final acceleration is {result: .2f} m/s**2"
+    return f"The final acceleration is {result: .2f} m/s²"
 def force(mass,acceleration):
     result= mass*acceleration
     return f"The final force is {result: .2f} N"
